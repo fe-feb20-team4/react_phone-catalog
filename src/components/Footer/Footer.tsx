@@ -13,7 +13,9 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <div className="container footer__container">
-        <Logo />
+        <div className="footer__logo">
+          <Logo />
+        </div>
         <div className="footer__links">
           <Link to="/" className="footer__link">Github</Link>
           <Link to="/" className="footer__link">Contacts</Link>

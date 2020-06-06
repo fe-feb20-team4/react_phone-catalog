@@ -5,4 +5,16 @@
   @media screen and (max-width: $laptops-breakpoint) {
     width: 768px;
   }
+
+  @media screen and (max-width: $tablets-portrait-breakpoint) {
+    width: 528px;
+  }
+
+  @media screen and (max-width: 540px) {
+    width: 450px;
+  }
+
+  @media screen and (max-width: 390px) {
+    width: 320px;
+  }
 }
